@@ -1,0 +1,327 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+#section0 {
+    max-height: 100%;
+}
+
+#section1 {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #1c1c1c;
+    padding: 30px 30px;
+    .item:nth-child(2) {
+        background-image: linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%);
+    }
+    .item {
+        background-color: black;
+        .icon {
+            font-size: 55px;
+            color: #3df63d;
+            i {
+                margin-left: -114px;
+                margin-bottom: 24px;
+            }
+        }
+        h2 {
+            text-align: center;
+            color: #fff;
+            font-size: 25px;
+        }
+        p {
+            text-align: center;
+            color: #fff;
+            font-size: 14px;
+            padding: 10px 25px;
+        }
+    }
+}
+
+#about {
+    font-family: 'Open Sans', sans-serif;
+    .about1 {
+        p {
+            padding: 13px 50px;
+        }
+        hr {
+            width: 61px;
+            height: 3px;
+            background: #26cfcf;
+        }
+    }
+}
+
+#section0 {
+    font-family: 'Open Sans', sans-serif;
+    .navbar {
+        z-index: 5;
+        width: 100%;
+    }
+    .text {
+        position: absolute;
+        text-align: center;
+        top: -900px;
+        h1 {
+            color: white;
+            font-size: 39px;
+            font-weight: 800;
+            margin-bottom: 45px;
+        }
+        p {
+            color: white;
+            font-size: 22px;
+            font-weight: 400;
+            padding: 5px 92px;
+        }
+    }
+    button {
+        background-color: rgb(57, 212, 57);
+        position: absolute;
+        bottom: 579px;
+        width: 240px;
+        border-radius: 30px;
+        left: 41%;
+        font-weight: 600;
+        &:hover {
+            background-color: #666;
+        }
+    }
+}
+
+#Our {
+    height: 515px;
+    font-family: 'Open Sans', sans-serif;
+    .mission {
+        box-shadow: 0px 0px 3px 0px;
+        .images {
+            img {
+                max-width: 100%;
+            }
+        }
+        .ico1 {
+            cursor: pointer;
+            top: 163px;
+            margin: 0 auto;
+            font-size: 41px;
+            color: white;
+            width: 64px;
+            height: 64px;
+            text-align: center;
+            background-color: #18d26e;
+            border-radius: 50%;
+            border: 4px solid #fff;
+            left: calc(50% - 32px);
+            bottom: -30px;
+            -webkit-transition: 0.3s;
+            transition: 0.3s;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center i;
+            -ms-flex-pack: center i;
+            justify-content: center i;
+            justify-content: center;
+            align-items: center;
+        }
+        .ico1:hover {
+            background-color: white;
+            transition: transform 0.7s linear;
+            color: #18d26e;
+            transform: translate(1.2);
+        }
+    }
+    .ourtext {
+        h1 {
+            margin-top: 33px;
+            font-size: 25px;
+            font-weight: 600;
+        }
+        p {
+            font-size: 14px;
+            font-weight: 400;
+            margin: 10px 35px;
+        }
+    }
+}
+
+#Services {
+    .mar {
+        margin-top: 67px;
+    }
+    height: 515px;
+    .service {
+        margin-bottom: 53px;
+        h1 {
+            font-weight: 600;
+        }
+        hr {
+            width: 61px;
+            height: 3px;
+            background: #3df63d;
+            cursor: pointer;
+        }
+        p {
+            font-size: 15px;
+            letter-spacing: 1px;
+            line-height: 23px;
+            font-weight: 500;
+        }
+    }
+    .datas {
+        .icons {
+            i {
+                color: #18d26e;
+                font-size: 42px;
+                line-height: 0;
+                transition: 0.5s;
+                float: left;
+                margin: 25px 10px;
+                &:hover {
+                    color: black;
+                }
+            }
+        }
+        .titles {
+            cursor: pointer;
+            h3 {
+                font-size: 25px;
+                font-weight: 700;
+                color: black;
+                transition: (0.5s linear);
+                &:hover {
+                    color: #18d26e;
+                }
+            }
+        }
+        .description {
+            p {
+                font-size: 14px;
+                margin-left: 60px;
+                line-height: 24px;
+                margin-bottom: 0;
+                color: #6666;
+            }
+        }
+    }
+    .data1 {
+        .icon {
+            i {
+                color: #18d26e;
+                font-size: 42px;
+                line-height: 0;
+                transition: 0.5s;
+                float: left;
+                margin: 25px 10px;
+                &:hover {
+                    color: black;
+                }
+            }
+        }
+        .titles {
+            cursor: pointer;
+            h3 {
+                font-size: 25px;
+                font-weight: 700;
+                color: black;
+                transition: (0.5s linear);
+                &:hover {
+                    color: #18d26e;
+                }
+            }
+        }
+        .description {
+            p {
+                font-size: 14px;
+                margin-left: 60px;
+                line-height: 24px;
+                margin-bottom: 0;
+                color: #6666;
+            }
+        }
+    }
+}
+
+#call {
+    height: 252px;
+    background-size: cover;
+    padding: 60px 0;
+    background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../Images/call-to-action-bg.jpg) fixed center center;
+    a {
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 1px;
+        display: inline-block;
+        padding: 8px 28px;
+        border-radius: 25px;
+        transition: 0.5s;
+        margin-top: 10px;
+        border: 2px solid #fff;
+        color: #fff;
+        &:hover {
+            background-color: #18d26e;
+            transition: 0.5s;
+            text-decoration: none;
+        }
+    }
+    h3 {
+        color: #fff;
+        font-size: 28px;
+        font-weight: 700;
+        margin-top: -13px;
+    }
+    p {
+        color: #fff;
+        margin-top: 22px;
+        padding: 0;
+        margin: 0 0 30px 0;
+    }
+}
+
+#skills {
+    h1 {
+        margin-top: 60px;
+        font-size: 32px;
+        color: #111;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 700;
+        position: relative;
+        padding-bottom: 15px;
+    }
+    hr {
+        width: 51px;
+        height: 3px;
+        background: #3df63d;
+        cursor: pointer;
+    }
+    .fesil {
+        .fesil1 {
+            border: 5px solid white;
+            text-align: initial;
+            padding-left: 16px;
+            cursor: pointer;
+            height: 42px;
+        }
+    }
+}
+
+#portfilio {
+    margin-top: 74px;
+    hr {
+        width: 61px;
+        height: 3px;
+        background: #3df63d;
+        cursor: pointer;
+    }
+    .portfolio-filters {
+        ul {
+            list-style: none;
+        }
+    }
+}
